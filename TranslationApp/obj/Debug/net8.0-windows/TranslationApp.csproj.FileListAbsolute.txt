@@ -1,0 +1,16 @@
+A:\C# Code Practice\TranslationApp\TranslationApp\bin\Debug\net8.0-windows\TranslationApp.exe
+A:\C# Code Practice\TranslationApp\TranslationApp\bin\Debug\net8.0-windows\TranslationApp.deps.json
+A:\C# Code Practice\TranslationApp\TranslationApp\bin\Debug\net8.0-windows\TranslationApp.runtimeconfig.json
+A:\C# Code Practice\TranslationApp\TranslationApp\bin\Debug\net8.0-windows\TranslationApp.dll
+A:\C# Code Practice\TranslationApp\TranslationApp\bin\Debug\net8.0-windows\TranslationApp.pdb
+A:\C# Code Practice\TranslationApp\TranslationApp\obj\Debug\net8.0-windows\TranslationApp.Form1.resources
+A:\C# Code Practice\TranslationApp\TranslationApp\obj\Debug\net8.0-windows\TranslationApp.csproj.GenerateResource.cache
+A:\C# Code Practice\TranslationApp\TranslationApp\obj\Debug\net8.0-windows\TranslationApp.GeneratedMSBuildEditorConfig.editorconfig
+A:\C# Code Practice\TranslationApp\TranslationApp\obj\Debug\net8.0-windows\TranslationApp.AssemblyInfoInputs.cache
+A:\C# Code Practice\TranslationApp\TranslationApp\obj\Debug\net8.0-windows\TranslationApp.AssemblyInfo.cs
+A:\C# Code Practice\TranslationApp\TranslationApp\obj\Debug\net8.0-windows\TranslationApp.csproj.CoreCompileInputs.cache
+A:\C# Code Practice\TranslationApp\TranslationApp\obj\Debug\net8.0-windows\TranslationApp.dll
+A:\C# Code Practice\TranslationApp\TranslationApp\obj\Debug\net8.0-windows\refint\TranslationApp.dll
+A:\C# Code Practice\TranslationApp\TranslationApp\obj\Debug\net8.0-windows\TranslationApp.pdb
+A:\C# Code Practice\TranslationApp\TranslationApp\obj\Debug\net8.0-windows\TranslationApp.genruntimeconfig.cache
+A:\C# Code Practice\TranslationApp\TranslationApp\obj\Debug\net8.0-windows\ref\TranslationApp.dll
