@@ -11,8 +11,9 @@ namespace TranslationApp
         public Form1()
         {
             InitializeComponent();
-            comboLanguageSelect.DataSource = languageItems;
-            comboTranslatedLanguage.DataSource = languageItems;
+            // Clone the data source for the second combo box
+            comboLanguageSelect.DataSource = new List<string>(languageItems);
+            comboTranslatedLanguage.DataSource = new List<string>(languageItems);
             // Set default selected items
             comboLanguageSelect.SelectedItem = "JA"; // Default to Japanese
             comboTranslatedLanguage.SelectedItem = "En"; // Default to English
@@ -52,7 +53,6 @@ namespace TranslationApp
 
         private async Task<string> TranslateJapaneseToEnglish(string inputText,string sourcelanguage,string targetLanguage)
         {
-
 
             var url = $"https://translate.googleapis.com/translate_a/single?client=gtx&sl={sourcelanguage}&tl={targetLanguage}&dt=t&q={HttpUtility.UrlEncode(inputText)}";
 

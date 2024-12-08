@@ -14,3 +14,4 @@ A:\C# Code Practice\TranslationApp\TranslationApp\obj\Debug\net8.0-windows\refin
 A:\C# Code Practice\TranslationApp\TranslationApp\obj\Debug\net8.0-windows\TranslationApp.pdb
 A:\C# Code Practice\TranslationApp\TranslationApp\obj\Debug\net8.0-windows\TranslationApp.genruntimeconfig.cache
 A:\C# Code Practice\TranslationApp\TranslationApp\obj\Debug\net8.0-windows\ref\TranslationApp.dll
+A:\C# Code Practice\TranslationApp\TranslationApp\obj\Debug\net8.0-windows\TranslationApp.sourcelink.json
