@@ -7,7 +7,7 @@ namespace TranslationApp
 {
     public partial class Form1 : Form
     {
-        List<string> languageItems = new List<string> { "Choose Language","En", "JA", "ES","BN" };
+        List<string> languageItems = new List<string> { "Choose Language", "En", "JA", "ES", "BN" };
         public Form1()
         {
             InitializeComponent();
@@ -42,8 +42,13 @@ namespace TranslationApp
 
             try
             {
-                string translatedText = await TranslateJapaneseToEnglish(japaneseText,sourceLanguage,targetLanguage);
-                richTextBox2.Text = translatedText;
+                // Translate text
+                (string translatedText, string hiraganaText, string romajiText) = await TranslateText(japaneseText, sourceLanguage, targetLanguage);
+
+                // Set text to respective RichTextBoxes
+                richTextBox2.Text = translatedText; // Translated text
+                richTextBox3.Text = hiraganaText;  // Hiragana transliteration
+                richTextBox4.Text = romajiText;    // Romaji transliteration
             }
             catch (Exception ex)
             {
@@ -51,10 +56,9 @@ namespace TranslationApp
             }
         }
 
-        private async Task<string> TranslateJapaneseToEnglish(string inputText,string sourcelanguage,string targetLanguage)
+        private async Task<(string translatedText, string hiraganaText, string romajiText)> TranslateText(string inputText, string sourceLanguage, string targetLanguage)
         {
-
-            var url = $"https://translate.googleapis.com/translate_a/single?client=gtx&sl={sourcelanguage}&tl={targetLanguage}&dt=t&q={HttpUtility.UrlEncode(inputText)}";
+            var url = $"https://translate.googleapis.com/translate_a/single?client=gtx&sl={sourceLanguage}&tl={targetLanguage}&dt=t&dt=rm&q={HttpUtility.UrlEncode(inputText)}";
 
             var webclient = new WebClient
             {
@@ -75,19 +79,32 @@ namespace TranslationApp
 
                     string translatedText = string.Empty;
 
-                    // Iterate through each translation segment
+                    // Extract the translated text
                     foreach (JsonElement segment in segments.EnumerateArray())
                     {
                         translatedText += segment[0].GetString(); // Extract the translation
                     }
 
-                    return translatedText;
+                    // Extract Hiragana (transliteration) from the response
+                    string hiraganaText = root[0][0][1].GetString(); // Index 1 gives Hiragana if available
+
+                    // Extract Romaji (transliteration) from the response
+                    string romajiText = root[0][0][2].GetString(); // Index 2 gives Romaji if available
+
+                    return (translatedText, hiraganaText ?? "N/A", romajiText ?? "N/A");
                 }
             }
+
+
+
             catch (Exception ex)
             {
-                return "Error: " + ex.Message;
+                return ("Error: " + ex.Message, "Error", "Error");
             }
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
 
         }
     }

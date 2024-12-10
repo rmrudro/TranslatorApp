@@ -37,12 +37,16 @@
             comboTranslatedLanguage = new ComboBox();
             label3 = new Label();
             label4 = new Label();
+            richTextBox3 = new RichTextBox();
+            richTextBox4 = new RichTextBox();
+            label5 = new Label();
+            label6 = new Label();
             SuspendLayout();
             // 
             // button1
             // 
             button1.BackColor = SystemColors.AppWorkspace;
-            button1.Location = new Point(562, 438);
+            button1.Location = new Point(537, 623);
             button1.Name = "button1";
             button1.Size = new Size(294, 59);
             button1.TabIndex = 0;
@@ -120,11 +124,49 @@
             label4.TabIndex = 8;
             label4.Text = "Targeted Language";
             // 
+            // richTextBox3
+            // 
+            richTextBox3.Location = new Point(129, 419);
+            richTextBox3.Name = "richTextBox3";
+            richTextBox3.Size = new Size(409, 120);
+            richTextBox3.TabIndex = 9;
+            richTextBox3.Text = "";
+            // 
+            // richTextBox4
+            // 
+            richTextBox4.Location = new Point(794, 419);
+            richTextBox4.Name = "richTextBox4";
+            richTextBox4.Size = new Size(409, 120);
+            richTextBox4.TabIndex = 10;
+            richTextBox4.Text = "";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(129, 380);
+            label5.Name = "label5";
+            label5.Size = new Size(70, 20);
+            label5.TabIndex = 11;
+            label5.Text = "Hiragana";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(794, 380);
+            label6.Name = "label6";
+            label6.Size = new Size(56, 20);
+            label6.TabIndex = 12;
+            label6.Text = "Romaji";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1520, 1068);
+            Controls.Add(label6);
+            Controls.Add(label5);
+            Controls.Add(richTextBox4);
+            Controls.Add(richTextBox3);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(comboTranslatedLanguage);
@@ -151,5 +193,9 @@
         private ComboBox comboTranslatedLanguage;
         private Label label3;
         private Label label4;
+        private RichTextBox richTextBox3;
+        private RichTextBox richTextBox4;
+        private Label label5;
+        private Label label6;
     }
 }

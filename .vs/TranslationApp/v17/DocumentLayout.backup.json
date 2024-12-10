@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{D5B7D7D3-D721-421F-BE37-9ADF6A8DBF43}|TranslationApp\\TranslationApp.csproj|A:\\C# Code Practice\\TranslationApp\\translationapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D5B7D7D3-D721-421F-BE37-9ADF6A8DBF43}|TranslationApp\\TranslationApp.csproj|solutionrelative:translationapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B7D7D3-D721-421F-BE37-9ADF6A8DBF43}|TranslationApp\\TranslationApp.csproj|a:\\c# code practice\\translationapp\\translationapp\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B7D7D3-D721-421F-BE37-9ADF6A8DBF43}|TranslationApp\\TranslationApp.csproj|solutionrelative:translationapp\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,19 +38,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "A:\\C# Code Practice\\TranslationApp\\TranslationApp\\Form1.cs",
-              "RelativeDocumentMoniker": "TranslationApp\\Form1.cs",
-              "ToolTip": "A:\\C# Code Practice\\TranslationApp\\TranslationApp\\Form1.cs",
-              "RelativeToolTip": "TranslationApp\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T15:38:23.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "A:\\C# Code Practice\\TranslationApp\\TranslationApp\\Form1.cs",
@@ -54,7 +45,33 @@
               "ToolTip": "A:\\C# Code Practice\\TranslationApp\\TranslationApp\\Form1.cs [Design]",
               "RelativeToolTip": "TranslationApp\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T15:18:11.209Z"
+              "WhenOpened": "2024-12-08T22:17:35.312Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "A:\\C# Code Practice\\TranslationApp\\TranslationApp\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "TranslationApp\\Form1.Designer.cs",
+              "ToolTip": "A:\\C# Code Practice\\TranslationApp\\TranslationApp\\Form1.Designer.cs",
+              "RelativeToolTip": "TranslationApp\\Form1.Designer.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAMwJQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T22:16:49.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "A:\\C# Code Practice\\TranslationApp\\TranslationApp\\Form1.cs",
+              "RelativeDocumentMoniker": "TranslationApp\\Form1.cs",
+              "ToolTip": "A:\\C# Code Practice\\TranslationApp\\TranslationApp\\Form1.cs",
+              "RelativeToolTip": "TranslationApp\\Form1.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAnwE8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T15:38:23.687Z",
+              "EditorCaption": ""
             }
           ]
         }
