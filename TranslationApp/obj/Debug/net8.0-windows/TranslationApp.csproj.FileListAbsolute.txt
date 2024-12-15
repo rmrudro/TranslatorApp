@@ -15,3 +15,8 @@ A:\C# Code Practice\TranslationApp\TranslationApp\obj\Debug\net8.0-windows\Trans
 A:\C# Code Practice\TranslationApp\TranslationApp\obj\Debug\net8.0-windows\TranslationApp.genruntimeconfig.cache
 A:\C# Code Practice\TranslationApp\TranslationApp\obj\Debug\net8.0-windows\ref\TranslationApp.dll
 A:\C# Code Practice\TranslationApp\TranslationApp\obj\Debug\net8.0-windows\TranslationApp.sourcelink.json
+A:\C# Code Practice\TranslationApp\TranslationApp\bin\Debug\net8.0-windows\Kawazu.dll
+A:\C# Code Practice\TranslationApp\TranslationApp\bin\Debug\net8.0-windows\LibNMeCab.dll
+A:\C# Code Practice\TranslationApp\TranslationApp\bin\Debug\net8.0-windows\LibNMeCab.IpaDicBin.dll
+A:\C# Code Practice\TranslationApp\TranslationApp\obj\Debug\net8.0-windows\TranslationApp.csproj.AssemblyReference.cache
+A:\C# Code Practice\TranslationApp\TranslationApp\obj\Debug\net8.0-windows\Translat.39BDBB59.Up2Date

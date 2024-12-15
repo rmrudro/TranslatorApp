@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,18 +35,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "A:\\C# Code Practice\\TranslationApp\\TranslationApp\\Form1.cs",
-              "RelativeDocumentMoniker": "TranslationApp\\Form1.cs",
-              "ToolTip": "A:\\C# Code Practice\\TranslationApp\\TranslationApp\\Form1.cs [Design]",
-              "RelativeToolTip": "TranslationApp\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T22:17:35.312Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -68,10 +56,21 @@
               "RelativeDocumentMoniker": "TranslationApp\\Form1.cs",
               "ToolTip": "A:\\C# Code Practice\\TranslationApp\\TranslationApp\\Form1.cs",
               "RelativeToolTip": "TranslationApp\\Form1.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAgwGIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T15:38:23.687Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "A:\\C# Code Practice\\TranslationApp\\TranslationApp\\Form1.cs",
+              "RelativeDocumentMoniker": "TranslationApp\\Form1.cs",
+              "ToolTip": "A:\\C# Code Practice\\TranslationApp\\TranslationApp\\Form1.cs [Design]",
+              "RelativeToolTip": "TranslationApp\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T22:17:35.312Z"
             }
           ]
         }

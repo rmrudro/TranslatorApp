@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+nOC3teksSk=",
+  "dgSpecHash": "16zcqiNR4iI=",
   "success": true,
   "projectFilePath": "A:\\C# Code Practice\\TranslationApp\\TranslationApp\\TranslationApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\rmrud\\.nuget\\packages\\kawazu\\1.1.4\\kawazu.1.1.4.nupkg.sha512",
+    "C:\\Users\\rmrud\\.nuget\\packages\\libnmecab\\0.10.1\\libnmecab.0.10.1.nupkg.sha512",
+    "C:\\Users\\rmrud\\.nuget\\packages\\libnmecab.ipadicbin\\0.10.0\\libnmecab.ipadicbin.0.10.0.nupkg.sha512"
+  ],
   "logs": []
 }

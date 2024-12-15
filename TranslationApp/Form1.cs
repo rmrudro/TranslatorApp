@@ -2,7 +2,7 @@ using System.Net;
 using System.Net.Http.Json;
 using System.Text.Json;
 using System.Web;
-
+using Kawazu;
 namespace TranslationApp
 {
     public partial class Form1 : Form
@@ -84,14 +84,17 @@ namespace TranslationApp
                     {
                         translatedText += segment[0].GetString(); // Extract the translation
                     }
-
+                    using var converter = new KawazuConverter();
+                    
                     // Extract Hiragana (transliteration) from the response
-                    string hiraganaText = root[0][0][1].GetString(); // Index 1 gives Hiragana if available
+                    var hiraganaText = await converter.Convert(inputText, To.Hiragana, Mode.Normal, RomajiSystem.Passport, "(", ")");
+                    var romajiText = await converter.Convert(inputText, To.Romaji, Mode.Normal, RomajiSystem.Passport, "(", ")");
+                    //string hiraganaText = root[0][0][1].GetString(); // Index 1 gives Hiragana if available
 
                     // Extract Romaji (transliteration) from the response
-                    string romajiText = root[0][0][2].GetString(); // Index 2 gives Romaji if available
+                    // string romajiText = root[0][0][2].GetString(); // Index 2 gives Romaji if available
 
-                    return (translatedText, hiraganaText ?? "N/A", romajiText ?? "N/A");
+                    return (translatedText, hiraganaText.ToString() ?? "N/A", romajiText.ToString() ?? "N/A");
                 }
             }
 
